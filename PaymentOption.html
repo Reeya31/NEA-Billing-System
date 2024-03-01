@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment Option</title>
+</head>
+<body>
+    <h1>Add Payment Option</h1>
+    <form class="w-50 m-auto forms" action="processpaymentoption.php" method="POST">
+        <div class="mb-3">
+          <label for="" class="form-label">POID</label>
+          <input type="text" class="form-control" name="poid" >            
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">P.O Name</label>
+          <select class="form-select" aria-label="Default select example" name="po_name">
+          <option selected>Select </option>
+          <option value="1">ESewa</option>
+          <option value="2">Khalti</option>
+          <option value="3">Mobile Banking</option>
+        </select>
+        </div> 
+        <div class="mb-3 form-check">
+          <label class="form-check-label" for="exampleCheck1">Status</label>
+          <input type="checkbox" class="form-check-input" id="status" name="status">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>  
+</body>

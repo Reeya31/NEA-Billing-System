@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Customer</title>
+</head>
+<body>
+    <h1>Add Customer Details</h1>
+    <form class="w-50 m-auto forms" action="processcustomerdetails.php" method="POST">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">SCNO</label>
+          <input type="text" class="form-control" name="scno">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">CUSID</label>
+          <input type="text" class="form-control" name="cusid" >
+        </div>	
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">FullName</label>
+          <input type="text" class="form-control" name="fullname">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Address</label>
+          <input type="text" class="form-control" name="address">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Mobile No.</label>
+          <input type="number" class="form-control" name="mobileno">
+        </div>
+  
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Branch ID</label>
+          <input type="text" class="form-control" name="bid">
+        </div>
+        
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Demand Type ID</label>
+          <input type="text" class="form-control" name="dtid">
+        </div>
+        <button type="submit" class="btn btn-success mb-5">Submit</button>
+      </form>  
+</body>

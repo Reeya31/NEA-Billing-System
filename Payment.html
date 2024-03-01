@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Payment</title>
+</head>
+<body>
+    <h1>Add Payment Details</h1>
+    <form class="w-50 m-auto forms" action="processpaymentdetails.php" method="POST">
+        <div class="mb-3">
+          <label for="" class="form-label">PID</label>
+          <input type="text" class="form-control" name="pid">
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">BID</label>
+          <input type="text" class="form-control" name="bid">
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">PDate</label>
+          <input type="date" class="form-control" name="pdate" >
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">PAmount</label>
+          <input type="text" class="form-control" name="pamount" />
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">Payment Option ID</label>
+          <input type="text" class="form-select" name="poid">
+        </div>
+        <div class="mb-3">
+          <label for="" class="form-label">Rebate Amount</label>
+          <input type="text" class="form-control" name="rebate">
+        </div> 
+        <div class="mb-3">
+          <label for="" class="form-label">Fine Amount</label>
+          <input type="text" class="form-control" name="fine">
+        </div>
+        <button type="submit" class="btn btn-success mb-5">Submit</button>
+      </form>
+  
+</body>
+</html>

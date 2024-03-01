@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Demand Rate</title>
+</head>
+<body>
+    <h1>Add Demand Rate</h1>
+    <form class="w-50 m-auto forms" action="processdemandrate.php" method="POST">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Demand Rate ID</label>
+        <input type="text" class="form-control" name="drid">
+      </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Demand Type ID</label>
+          <input type="text" class="form-control" name="dtid">
+        </div>	
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Rate</label>
+          <input type="text" class="form-control"  name="rate">
+      </div>
+  <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Effective Date</label>
+          <input type="date" class="form-control" id="exampleInputEmail1" name="effectivedate">
+          </div>
+        <div class="mb-3 form-check">
+          <label class="form-check-label" for="exampleCheck1">IsCurrent</label>
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" name="iscurrent">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>  
+</body>
